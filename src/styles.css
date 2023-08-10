@@ -15,3 +15,41 @@
     --heading-colour: #d82050;
     --text-colour: #444444;
 }
+
+body {
+    background: var(--body-background);
+}
+
+/* Navbar */
+/* Banner */
+.banner {
+    background: url(./media/AWiA-banner.png) #fff no-repeat;
+    background-size: 100%;
+    height: 210px;
+}
+/* Hero */
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero > h2, .hero > h3 {
+    font-family: var(--text-font);
+}
+
+.hero > h1 {
+    font-family: var(--heading-font);
+}
+
+
+@media (max-width: 450px) {
+    .banner {
+        height: 55px;
+    }
+}
+
+@media (max-width: 770px) {
+    .banner {
+        height: 110px;
+    }
+}
