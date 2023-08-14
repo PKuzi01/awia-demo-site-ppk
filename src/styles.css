@@ -91,6 +91,36 @@ body {
     color: var(--text-colour);
 }
 
+/* About Info Section */
+
+.about-info {
+    margin: 30px auto;
+}
+
+.about-info > h2 > span {
+    font-family: var(--heading-font);
+    color: var(--heading-colour);
+    text-shadow: rgb(238, 191, 232) 2px 2px 3px;
+}
+
+.about-info > h2 {
+    font-family: var(--text-font);
+    color: var(--text-colour);
+    margin: 20px 0;
+}
+
+.about-info > p {
+    color: var(--text-colour);
+    font-family: var(--text-font);
+    font-size: 18px;
+}
+
+.about-info > ul > li {
+    color: var(--text-colour);
+    font-family: var(--text-font);
+    font-size: 18px;
+}
+
 .footer > footer > a {
     color: var(--heading-colour);
     text-decoration: none;
