@@ -92,7 +92,6 @@ body {
 }
 
 /* About Info Section */
-
 .about-info {
     margin: 30px auto;
 }
@@ -122,6 +121,16 @@ body {
 }
 
 /* Project Info */
+.projects-info {
+    margin: 30px auto;
+}
+
+.projects-info > h1 > span {
+    font-family: var(--heading-font);
+    color: var(--heading-colour);
+    text-shadow: rgb(238, 191, 232) 2px 2px 3px;
+}
+
 .projects-info > h1 {
     font-family: var(--text-font);
     color: var(--text-colour);
