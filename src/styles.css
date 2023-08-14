@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Lofty Goals';
-    src: url('./fonts/LoftyGoals-Regular.woff2') format('woff2'),
-        url('./fonts/LoftyGoals-Regular.woff') format('woff'),
-        url('./fonts/LoftyGoals-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
 :root {
     --text-font: 'Dosis', sans-serif;
     --heading-font: 'Cedarville Cursive', cursive;
