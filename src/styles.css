@@ -10,7 +10,7 @@
 
 :root {
     --text-font: 'Dosis', sans-serif;
-    --heading-font: 'Lofty Goals', sans-serif;
+    --heading-font: 'Cedarville Cursive', cursive;
     --body-background: radial-gradient(circle at 7.5% 24%, rgb(238, 191, 232) 0%, rgb(254, 223, 170) 25.5%, rgb(210, 249, 169) 62.3%);
     --heading-colour: #d82050;
     --text-colour: #444444;
