@@ -189,6 +189,41 @@ body {
     font-size: 18px;
 }
 
+/* Contact Info */
+.contact-info {
+    margin: 30px auto;
+}
+
+.contact-info > .contacts {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contact-info > h1 {
+    font-family: var(--text-font);
+    color: var(--text-colour);
+    margin: 20px 0;
+}
+
+.contact-info > .contacts > h3 {
+    color: var(--heading-colour);
+    font-family: var(--text-font);
+}
+
+.contact-info > .contacts > a {
+    text-decoration: none;
+    color: var(--text-colour);
+    font-family: var(--text-font);
+    font-size: 20px;
+}
+
+.contact-info > .contacts > a:hover {
+    text-decoration: underline;
+    color: var(--heading-colour);
+}
+
+/* footer */
+
 .footer > footer > a {
     color: var(--heading-colour);
     text-decoration: none;
