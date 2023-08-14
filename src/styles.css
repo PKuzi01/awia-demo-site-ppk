@@ -121,6 +121,30 @@ body {
     font-size: 18px;
 }
 
+/* Project Info */
+.projects-info > h1 {
+    font-family: var(--text-font);
+    color: var(--text-colour);
+    text-shadow: rgb(238, 191, 232) 2px 2px 3px;
+}
+
+.projects-info > .projects > h2 {
+    color: var(--heading-colour);
+    font-family: var(--text-font);
+}
+
+.projects-info > .projects > p {
+    font-family: var(--text-font);
+    color: var(--text-colour);
+    font-size: 18px;
+}
+
+.projects-info > .projects > ul > li {
+    font-family: var(--text-font);
+    color: var(--text-colour);
+    font-size: 18px;
+}
+
 .footer > footer > a {
     color: var(--heading-colour);
     text-decoration: none;
