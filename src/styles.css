@@ -131,6 +131,7 @@ body {
 .projects-info > .projects > h2 {
     color: var(--heading-colour);
     font-family: var(--text-font);
+    margin: 20px 0;
 }
 
 .projects-info > .projects > p {
