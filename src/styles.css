@@ -99,14 +99,14 @@ body {
     padding: 20px 80px
 }
 
-@media (max-width: 450px) {
+@media (max-width: 770px) {
     .banner {
-        height: 55px;
+        height: 85px;
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 450px) {
     .banner {
-        height: 110px;
+        height: 55px;
     }
 }
