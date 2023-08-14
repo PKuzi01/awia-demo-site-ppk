@@ -230,4 +230,17 @@ body {
     .banner {
         height: 55px;
     }
+
+    .meet-team-info > .profile  > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-info > .contacts {
+        font-size: px;
+    }
+
+    .contact-info > .contacts > a {
+        font-size: 15px;
+    }
 }
