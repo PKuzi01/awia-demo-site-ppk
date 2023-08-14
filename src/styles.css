@@ -23,6 +23,7 @@ body {
 
 .nav-link {
     color: var(--text-colour);
+    font-family: var(--text-font);
 }
 
 .nav-link:hover {
@@ -66,6 +67,19 @@ body {
     margin: 20px 0;
 }
 
+.intro > p {
+    color: var(--text-colour);
+    font-family: var(--text-font);
+    font-size: 18px;
+}
+
+.intro > div > h3 {
+    color: var(--heading-colour);
+    font-family: var(--text-font);
+    font-size: 25px;
+    padding: 20px 80px
+}
+
 /* Footer */
 .footer {
     text-align: center;
@@ -84,19 +98,6 @@ body {
 
 .footer > footer > a:hover {
     text-decoration: underline;
-}
-
-.intro > p {
-    color: var(--text-colour);
-    font-family: var(--text-font);
-    font-size: 18px;
-}
-
-.intro > div > h3 {
-    color: var(--heading-colour);
-    font-family: var(--text-font);
-    font-size: 25px;
-    padding: 20px 80px
 }
 
 @media (max-width: 770px) {
